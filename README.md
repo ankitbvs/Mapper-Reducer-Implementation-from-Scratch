@@ -1,7 +1,7 @@
 # Mapper-Reducer-Implementation-from-Scratch
 
 
-![alt text](mapinput.PNG)
+![alt text](mapi.PNG)
 
 ### Table of contents
 * [Introduction](#introduction)
@@ -39,6 +39,8 @@ MapReduce program work in two phases, namely, Map and Reduce.
 
 ### Type of Data
 * The dataset is text file consisting of the famous Pride and Prejudice book
+
+![alt text](mapinput.PNG)
 
 ### Data Pre-processing
 * Tokenizing, removal of stop words and stemming was done for textual data
