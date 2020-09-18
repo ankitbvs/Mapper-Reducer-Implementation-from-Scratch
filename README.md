@@ -63,39 +63,69 @@ So let me explain the difference between Mapper and Reducer in-detail here. Cons
 
 Example file : 
 
+
 "a man is standing there is a rockstar" 
+
 
 Mapper Function : Tokenizes the sentence and counts the number of occurences of each word.
 
+
 Mapper Output:
+
+
 a - 1
+
 man - 1
+
 is - 1
+
 standing - 1
+
 there - 1
+
 is - 1
+
 a - 1
+
 rockstar - 1
 
 Reducer Function      : Sorts the above output and groups by the words and counts its occurences.
 
+
 Mapper Layer 1 Output : Sorts the Mapper Output
+
+
 a        - 1
+
 a        - 1
+
 is       - 1
+
 is       - 1
+
 man      - 1
+
 rockstar - 1  
+
 standing - 1
+
 there    - 1
 
 Mapper Layer 2 Output : Groups by the above output and displays the count of each word in the file
+
+
 a        - 2
+
 is       - 2
+
 man      - 1
-rockstar - 1  
+
+rockstar - 1
+
 standing - 1
+
 there    - 1
+
 
 That's great! We have now implemented our own Mapper Reducer function. 
 
